@@ -1,9 +1,10 @@
 # dockerized-react
 dockerized-react
-## Using Volumes in docker-compose
+## Using Volumes in docker-compose(development stage)
 Volume feature will map the specified folders in the container up against the folders in the working directory on the host machine(computer)
 so that the new changes outside of the container will be reflected in the container(The volumes will hold the reference in the container to 
-the files on the host machine.)
+the files on the host machine.) The feature is really useful in the development because the changes will be reflected immediately in the running
+container.
 
 `docker-compose up`
 
